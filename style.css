@@ -1,0 +1,80 @@
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --p-font: 'Oxygen', sans-serif;
+    --main-font: 'Playfair Display', serif;
+    --nav-font: 'Oxygen Mono', monospace;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0F3D3E;
+  color: #FEFBF6;
+  font-family: var(--p-font);
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-weight: 800;
+}
+nav {
+  padding: 20px;
+}
+
+ul, li {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+  font-family: var(--nav-font);
+}
+
+#intro {
+  font-size: 1.0rem;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+#contact {
+  text-align: center;
+}
+.header {
+  border-bottom: 2px;
+}
+.nav-item {
+  text-decoration: none;
+}
+.navbar{
+  align-content: center;
+}
+.jay-p{
+  font-family: var(--main-font);
+  font-weight: 300;
+}
+.main {
+  display: inline;
+  position: relative;
+}
+.menu {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border-radius: 150px 0px 150px 150px;
+}
